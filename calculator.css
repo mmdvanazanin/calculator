@@ -1,0 +1,67 @@
+/*
+github.com/mmdvanazanin
+date: 11.04.2023 -- 21:22
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.calculator{
+    height: 400px;
+    width: 280px;
+    background-color: black;
+    padding: 12px;
+}
+div input{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    
+}
+.display input{
+    border-radius: 0%;
+    width: 256px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    direction: rtl;
+    border: 1px solid black;
+}
+div .operation{
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    font-size: 25px;
+}
+.orange{
+    background-color: orange;
+    border: 1px solid orange;
+    font-size: 25px;
+    color: white;
+}
+.number{
+    background-color: rgb(58, 55, 55);
+    border: 1px solid rgb(58, 55, 55);
+    font-size: 25px;
+    color: white;
+}
+.sifir{
+    background-color: rgb(58, 55, 55);
+    border: 1px solid rgb(58, 55, 55);
+    font-size: 25px;
+    color: white;
+    width: 120px;
+    border-radius: 50%;
+}
+
+/*
+github.com/mmdvanazanin
+date: 11.04.2023 -- 21:22
+*/
